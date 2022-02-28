@@ -1,0 +1,1246 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    /*
+    background-image: url(f5.jpg);
+
+    
+    background-image: url("f9.png");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%; 
+
+    */
+    background-color: black;
+
+
+}
+.firstpage{
+    margin-top: 130px;
+    margin-left: 20px;
+}
+.navcontainer
+{
+    display: flex;
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    position: sticky;
+    align-items: center;
+    z-index:1;
+
+
+
+}
+.logo{
+    padding-left: 10px;
+    font-size: 26px;
+    font-family: 'Varela Round';
+
+
+}
+.navitemcontainer ul{
+    display: flex;
+    text-align: center;
+    box-sizing: border-box;
+    margin-left: 100px;
+
+
+}
+.navitemcontainer ul li
+{
+    padding: 14px;
+    list-style: none;
+
+
+}
+.items2:hover{
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+
+ 
+
+
+}
+.home
+{    color: rgb(0, 0, 0);
+    background-color: cyan;
+}
+.logoimage
+{
+    display: flex;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.items2{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Varela Round';
+    padding: 6px;
+    font-weight:bolder;
+    transition: all;
+    transition-duration: 0.8s;
+    border-radius: 4px;
+
+}
+
+.searching
+{
+    margin-left: 300px;
+    border-bottom: 2px solid black;
+    border-top:none;
+    border-left:0px;
+    border-right:0px;
+    background-color: transparent;
+    width: 180px;
+    height: 10px;
+    color: black;
+    padding: 2px;
+
+}
+.backimage
+{
+    width: 100vw;
+    height: 100vh;
+    
+
+}
+.heading{
+    color: rgb(255, 255, 255);
+    font-family: 'Varela Round';
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow:1px 3px 9px  rgb(255, 255, 255) ;
+
+
+    
+}
+.heading2
+{
+    color: rgb(0, 255, 242);
+    font-size: 150px;
+    font-family:Helvetica, sans-serif;
+
+}
+.firsttext
+{
+    color: white;
+    font-size: 19px;
+    width: 800px;
+    font-family: 'Varela Round';
+    margin-left: 10px;
+    margin-top: 30px;
+
+
+
+}
+.buttonsloginsignup
+{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 20px;
+
+
+
+}
+.buttonsloginsignup .login
+{
+    width: 130px;
+    height: 30px;
+    border:0px;
+    border-radius: 10px;
+    font-weight:bolder ;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+
+
+
+
+}
+.login:hover
+{
+    background-color: aqua;
+    color: rgb(255, 255, 255);
+    transform:translateY(-8px);
+
+
+}
+.signup:hover
+{
+    background-color: aqua;
+    color: rgb(255, 255, 255);
+    transform:translateY(-8px);
+
+
+}
+.buttonsforlog:hover
+{
+    color: rgb(255, 255, 255);
+
+
+}
+
+.buttonsforlog
+{
+    text-decoration: none;
+    color: black;
+    font-weight:bolder 
+    
+
+
+}
+.buttonsloginsignup .signup
+{
+    width: 130px;
+    height: 30px;
+    border:0px;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-weight:bolder ;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+
+
+}
+/*Image of person on first page*/
+
+.firstpageimage{
+    width:800px;
+    height: 600px;
+    flex-direction: row;
+}
+
+.secondpage
+{
+
+color: white;
+background-color: white;
+margin-top:430px ;
+
+}
+.intro
+{
+    text-align: center;
+
+    color: rgb(0, 0, 0);
+    font-family: 'Rubik';
+    font-size: 45px;
+    padding-left: 18px;
+    font-weight:600px
+
+
+}
+.iamgewithcontent
+{
+
+display: flex;
+color: rgb(0, 0, 0);
+
+
+
+}
+
+.image1
+{
+ height: 400px;
+ width: 500px;
+ margin-left: 20px;
+ border-radius: 5px;
+ margin-top: 10px;
+
+
+
+}
+.data1
+{
+margin-left: 10px;
+font-family: 'Varela Round';
+font-size: 15px;
+font-weight: bolder;
+margin-top: 13px;
+color:rgb(128, 123, 123)
+
+}
+
+.pageseconddesign
+{
+
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+}
+.Skills
+{
+    text-align: center;
+
+    color: rgb(0, 0, 0);
+    font-family: 'Rubik';
+    font-size: 45px;
+    padding-left: 13px;
+    font-weight:600px
+
+}
+.Skills1
+{
+    text-align: center;
+
+    color: rgb(255, 0, 0);
+    font-family: 'Rubik';
+    font-size: 45px;
+    font-weight:600px;
+
+}
+
+
+.thirdblock
+{
+
+    background-color: white;
+    margin-top: 100px;
+    padding-bottom: 40px;
+}
+.skilllogo
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*
+.skilllogo img
+{
+    width:150px;
+    height: 200px;
+    margin-left: 10px;
+}
+*/
+.first3logo
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.lastthreelogo
+{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.cppdata
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 250px;
+    margin-left: 18px;
+    border-radius:0px;
+    margin-top: 20px;
+    padding: 10px;
+    height: 320px;
+
+
+}
+.cpp1
+{
+    width:60px;
+    height:60px;
+    padding-left: 90px;
+    padding-top: 30px;
+}
+.cpphead
+{
+ font-family:Arial;
+ font-size: 20px;
+ font-weight: bolder;
+ color: rgb(38, 135, 247);
+
+
+}
+.cpppara
+{
+    font-family:Arial;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+   
+
+
+}
+.cppbutton
+{
+    width: 140px;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius:0px;
+    margin-left: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 1s;
+
+}
+.cppbutton:hover
+{
+    box-shadow: 1px 1px 20px rgb(38, 135, 247);
+    border:4px solid white;
+    background-color: rgb(38, 135, 247);
+}
+.cpplink
+{
+    text-decoration: none;
+    font-family: 'Varela Round';
+font-weight: bolder;
+color: rgb(0, 0, 0);
+}
+/*---------------------------------------------*/
+.pydata
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 250px;
+    margin-left: 18px;
+    border-radius:0px;
+    margin-top: 20px;
+    padding: 10px;
+    height: 320px;
+
+}
+.py1
+{
+    width:80px;
+    height:60px;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+.pyhead
+{
+ font-family:Arial;
+ font-size: 20px;
+ font-weight: bolder;
+ color: rgb(241, 245, 8);
+ 
+
+
+}
+.pypara
+{
+    font-family:Arial;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+   
+
+
+}
+/*---------------------------------*/
+.jvdata
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 250px;
+    margin-left: 18px;
+    border-radius:0px;
+    margin-top: 20px;
+    padding: 10px;
+    height: 320px;
+
+}
+.jv1
+{
+    width:80px;
+    height:70px;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.jvhead
+{
+ font-family:Arial;
+ font-size: 20px;
+ font-weight: bolder;
+ color: rgb(255, 12, 12);
+
+}
+.jvpara
+{
+    font-family:Arial;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+   
+
+
+}
+/*---------------------------------*/
+.jsdata
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 250px;
+    margin-left: 18px;
+    border-radius:0px;
+    margin-top: 20px;
+    padding: 10px;
+    height: 320px;
+
+}
+.js1
+{
+    width:80px;
+    height:60px;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+.jshead
+{
+ font-family:Arial;
+ font-size: 20px;
+ font-weight: bolder;
+color: rgb(169, 255, 32);
+
+}
+.jspara
+{
+    font-family:Arial;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+   
+
+
+}
+
+/*---------------------------------*/
+.htmldata
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 250px;
+    margin-left: 18px;
+    border-radius:0px;
+    margin-top: 20px;
+    padding: 10px;
+    height: 320px;
+
+}
+.html1
+{
+    width:80px;
+    height:60px;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+.htmlhead
+{
+ font-family:Arial;
+ font-size: 20px;
+ font-weight: bolder;
+color: rgb(255, 160, 71);
+
+}
+.htmlpara
+{
+    font-family:Arial;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+   
+
+
+}
+
+/*---------------------------------*/
+.cssdata
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 250px;
+    margin-left: 18px;
+    border-radius:0px;
+    margin-top: 20px;
+    padding: 10px;
+    height: 320px;
+
+}
+.css1
+{
+    width:80px;
+    height:70px;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.csshead
+{
+ font-family:Arial;
+ font-size: 20px;
+ font-weight: bolder;
+color: rgb(53, 225, 255);
+
+}
+.csspara
+{
+    font-family:Arial;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+   
+
+
+}
+
+/*---------------------------------*/
+.redata
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 250px;
+    margin-left: 18px;
+    border-radius:0px;
+    margin-top: 20px;
+    padding: 10px;
+    height: 320px;
+
+}
+.re1
+{
+    width:140px;
+    height:60px;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.rehead
+{
+ font-family:Arial;
+ font-size: 20px;
+ font-weight: bolder;
+color: rgb(0, 255, 255);
+
+}
+.repara
+{
+    font-family:Arial;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+   
+
+
+}
+/*---------------------------------*/
+.phdata
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 250px;
+    margin-left: 18px;
+    border-radius:0px;
+    margin-top: 20px;
+    padding: 10px;
+    height: 320px;
+
+}
+.ph1
+{
+    width:100px;
+    height:70px;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+.phhead
+{
+ font-family:Arial;
+ font-size: 20px;
+ font-weight: bolder;
+color: rgb(132, 0, 255);
+
+}
+.phpara
+{
+    font-family:Arial;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+   
+
+
+}
+.cppdata:hover{
+    box-shadow:1px 1px 34px rgb(38, 135, 247);
+}
+.pydata:hover{
+    box-shadow:1px 1px 34px rgb(241, 245, 8);
+}
+.jvdata:hover{
+    box-shadow:1px 1px 34px rgb(255, 12, 12);
+}
+.jsdata:hover{
+    box-shadow:1px 1px 34px rgb(169, 255, 32);
+}
+.htmldata:hover{
+    box-shadow:1px 1px 34px rgb(255, 160, 71);
+}
+.cssdata:hover{
+    box-shadow:1px 1px 34px rgb(53, 225, 255);
+}
+.redata:hover{
+    box-shadow:1px 1px 34px rgb(0, 255, 255);
+}
+.phdata:hover{
+    box-shadow:1px 1px 34px rgb(132, 0, 255);
+}
+/* button shawdow------------------*/
+.pybutton
+{
+    width: 140px;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius:0px;
+    margin-left: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 1s;
+
+}
+.pybutton:hover
+{
+    box-shadow: 1px 1px 30px rgb(241, 245, 8);
+border:4px solid white;
+    background-color:  rgb(241, 245, 8);
+}
+.jvbutton
+{
+width: 140px;
+height: 25px;
+background-color: rgb(255, 255, 255);
+border: none;
+border-radius:0px;
+margin-left: 50px;
+margin-top: 20px;
+cursor: pointer;
+transition: all;
+transition-duration: 1s;
+    
+}
+.jvbutton:hover
+{
+    box-shadow: 1px 1px 30px rgb(255, 12, 12);
+    border:4px solid white;
+
+    background-color: rgb(255, 12, 12);
+}
+.jsbutton
+{
+width: 140px;
+height: 25px;
+background-color: rgb(255, 255, 255);
+border: none;
+border-radius:0px;
+margin-left: 50px;
+margin-top: 20px;
+cursor: pointer;
+transition: all;
+transition-duration: 1s;
+    
+}
+
+.jsbutton:hover
+{
+    box-shadow: 1px 1px 30px rgb(169, 255, 32);
+    border:4px solid white;
+
+    background-color: rgb(169, 255, 32);
+}
+.htmlbutton
+{
+width: 140px;
+height: 25px;
+background-color: rgb(255, 255, 255);
+border: none;
+border-radius:0px;
+margin-left: 50px;
+margin-top: 20px;
+cursor: pointer;
+transition: all;
+transition-duration: 1s;
+    
+}
+.htmlbutton:hover
+{
+    box-shadow: 1px 1px 30px rgb(255, 160, 71);
+    border:4px solid white;
+
+    background-color: rgb(255, 160, 71);
+}
+.cssbutton
+{
+width: 140px;
+height: 25px;
+background-color: rgb(255, 255, 255);
+border: none;
+border-radius:0px;
+margin-left: 50px;
+margin-top: 20px;
+cursor: pointer;
+transition: all;
+transition-duration: 1s;
+    
+}
+.cssbutton:hover
+{
+    box-shadow: 1px 1px 30px rgb(53, 225, 255);
+    border:4px solid white;
+
+    background-color: rgb(53, 225, 255);
+}
+.rebutton
+{
+width: 140px;
+height: 25px;
+background-color: rgb(255, 255, 255);
+border: none;
+border-radius:0px;
+margin-left: 50px;
+margin-top: 20px;
+cursor: pointer;
+transition: all;
+transition-duration: 1s;
+    
+}
+.rebutton:hover
+{
+    box-shadow: 1px 1px 30px rgb(0, 255, 255);
+    border:4px solid white;
+
+    background-color: rgb(0, 255, 255);
+}
+.phbutton
+{
+width: 140px;
+height: 25px;
+background-color: rgb(255, 255, 255);
+border: none;
+border-radius:0px;
+margin-left: 50px;
+margin-top: 20px;
+cursor: pointer;
+transition: all;
+transition-duration: 1s;
+}
+.phbutton:hover
+{
+    box-shadow: 1px 1px 30px rgb(132, 0, 255);
+    border:3px solid white ;
+    background-color: rgb(132, 0, 255);
+
+}
+/*-----------##################################3Footer######################3------------------*/
+
+.footer
+{
+margin-top: 100px;
+background-color: white;
+
+}
+.footerhead
+{
+ font-size: 25px;
+ font-family: 'Varela Round';
+ text-shadow: 1px 1px 3px black;
+ margin-left: 10px;
+
+}
+
+.headericons
+{
+    display: flex;
+    padding-top: 20px;
+    
+}
+.socialmedia
+{
+    margin-left: 90px;
+}
+.socialmedia img
+{
+    display: block;
+    padding-top: 15px;
+    transition: all;
+    transition-duration: 1s;
+    cursor: pointer;
+    padding-bottom: 25px;
+
+}
+
+.contactus
+{
+    margin-top: 7px;
+    font-family:'Varela Round'; 
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 1000px;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+
+
+}
+.socialmedia img:hover
+{
+
+    transform:translateY(-8px);
+
+}
+.data12
+{
+    display: block;
+}
+.datafooter
+{
+    margin-top: 10px;
+    margin-left: 12px;
+    width: 200px;
+    font-family: 'Varela Round';
+}
+
+.helpus
+{
+    margin-top: 7px;
+    font-family:'Varela Round'; 
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 1000px;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+
+
+}
+
+.helpmedia
+{
+    margin-left: 90px;
+}
+
+
+.helpdata
+{
+    font-family:'Varela Round'; 
+color: black;
+    display: block;
+    padding-top: 5px;
+    transition: all;
+    transition-duration: 1s;
+    cursor: pointer;
+    padding-bottom: 10px;
+    font-weight: bold;
+
+
+}
+
+.topproject
+{
+    margin-top: 10px;
+    margin-left: 200px;
+}
+.projects
+{
+
+    background-color: rgb(0, 0, 0);
+    border:3px solid black;
+    width: 150px;
+    height: 30px;
+    border-radius: 4px;
+    font-family:'Varela Round'; 
+    font-weight: bolder;
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 1s;
+}
+.projects:hover
+{
+    background-color: rgb(255, 13, 13);
+    box-shadow: 1px 1px 30px rgb(255, 0, 0);
+    border:3px solid rgb(255, 255, 255);
+    transform:translateY(-8px);
+}
+.datafooters
+{
+    width: 400px;
+    
+}
+.topproject1
+{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+/*##################################################################################*/
+/*##################################################################################*//*##################################################################################*/
+/*##################################################################################*/
+/*###################################RESPONSIVE####################################*/
+
+/*
+@media only screen and (max-width:1040px)  {
+    #topnavbar .logoimage{
+        width: 300px;
+        height: 200px;
+        margin: 0px;
+        padding: 0px;
+
+    }
+    #topnavbar .logo{
+        font-size: 60px;
+        margin-right: 150px;
+       }
+
+    #topnavbar .navitemcontainer{
+        font-size: 40px;
+
+    }
+    
+    #topnavbar .searching{
+        font-size: 30px;
+        border-bottom: 5px solid black;
+        width: 400px;
+        height: 30px;
+
+
+    }
+
+
+        
+    #firstpage1 .heading2{
+        font-size: 300px;
+
+
+    }
+            
+    #firstpage1 .heading{
+        font-size: 120px;
+
+
+    }
+            
+    #firstpage1 .firsttext{
+        font-size: 40px;
+        width: 1400px;
+
+
+    }
+    #firstpage1 .login{
+        width: 330px;
+        height: 70px;
+    
+
+
+    }
+    #firstpage1 .signup{
+        width: 330px;
+        height: 70px;
+    
+
+
+    }
+    #firstpage1 .buttonsforlog{
+        font-size: 27px;
+    
+
+
+    }
+
+    #secondpage2 .intro{
+        font-size: 77px;
+    
+
+
+    }
+    
+    #secondpage2 .image1{
+        height: 440px;
+
+
+    }
+
+    #secondpage2 .data1{
+        width: 2000px;    
+        height: 440px;
+        font-size: 23px;
+
+
+    }
+    #thirdblock .Skills{
+
+        font-size: 77px;
+
+
+    }
+ 
+
+}
+*/
+/*##################################################################################*/
+/*##################################################################################*//*##################################################################################*/
+/*##################################################################################*/
+/*###################################RESPONSIVE####################################*/
+
+/*
+@media only screen and (max-width:) {
+    #topnavbar .logoimage{
+        width: 300px;
+        height: 200px;
+        margin: 0px;
+        padding: 0px;
+
+    }
+    #topnavbar .logo{
+        font-size: 60px;
+        margin-right: 150px;
+       }
+
+    #topnavbar .navitemcontainer{
+        font-size: 40px;
+
+    }
+    
+    #topnavbar .searching{
+        font-size: 30px;
+        border-bottom: 5px solid black;
+        width: 400px;
+        height: 30px;
+
+
+    }
+
+
+
+}
+
+*/
+
+
+
+.contact
+{
+    display: flex;
+    background-color: white;
+    margin-top: 20px;
+
+}
+.contactimage
+{
+    width: 500px;
+    height: 500px;
+    margin-top: 66px;
+}
+.contacthead
+{
+    font-size: 50px;
+    font-family: 'Varela Round';
+    margin-top: 10px;
+
+}
+.username
+{
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    font-family:'Varela Round' ;
+}
+.email
+{
+    font-size: 20px;
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+    font-family:'Varela Round' ;
+}
+.message
+{
+    font-size: 20px;
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+    font-family:'Varela Round' ;
+}
+.usenameentry
+{
+ width: 300px;
+ height: 30px;
+ border: none;
+ background-color: rgb(0, 0, 0);
+ color: white;
+ padding-left: 5px;
+ font-family:'Varela Round' ;
+}
+.emailentry
+{
+ width: 300px;
+ height: 30px;
+ border: none;
+ background-color: rgb(0, 0, 0);
+ color: white;
+ padding-left: 5px;
+ font-family:'Varela Round' ;
+}
+.messageentry
+{
+ width: 500px;
+ height: 170px;
+ border: none;
+ background-color: rgb(0, 0, 0);
+ color: white;
+ font-family:'Varela Round' ;
+}
+.buttonsform
+{
+    margin-top: 20px;
+}
+.submitting
+{
+
+    width: 140px;
+    height: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family:'Varela Round' ;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 1s;
+}
+.reseting
+{
+
+    width: 140px;
+    height: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family:'Varela Round' ;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 1s;
+
+}
+
+.submitting:hover
+{
+    background-color: rgb(255, 13, 13);
+    box-shadow: 1px 1px 30px rgb(255, 0, 0);
+    border:3px solid rgb(255, 255, 255);
+    transform:translateY(-2px);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+.reseting:hover
+{
+    background-color: rgb(255, 13, 13);
+    box-shadow: 1px 1px 30px rgb(255, 0, 0);
+    border:3px solid rgb(255, 255, 255);
+    transform:translateY(-2px);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
